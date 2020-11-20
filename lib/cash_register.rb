@@ -24,5 +24,12 @@ class CashRegister
     end
   end
   
+  def void_last_transaction
+    last = []
+    if 
+    self.last 
+    end
+  end
+  
 end
 
