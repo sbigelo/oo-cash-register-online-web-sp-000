@@ -25,8 +25,9 @@ class CashRegister
   end
   
   def void_last_transaction
-    last = []
-    if 
+    if @items = []
+      @total = 0
+    else
     self.last 
     end
   end
