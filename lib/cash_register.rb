@@ -28,10 +28,10 @@ class CashRegister
     if @items = []
       @total = 0
     else
-    self.last - self.last_transaction
+    self.total = self.last - self.last_transaction
     end
   end
   
-  
+
 end
 
